@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
           card.style.zIndex = "2";
         } else if (i === currentIndex + 1 && currentIndex < cards.length - 1) {
           card.classList.add("next");
-          card.style.opacity = "1";
+          card.style.opacity = "0.5";
           card.style.transform = "translateY(-15%)";
           card.style.zIndex = "1";
         }
